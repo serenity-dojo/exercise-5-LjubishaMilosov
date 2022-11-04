@@ -10,7 +10,6 @@ public class WhenCreatingObjects {
     @Test
     public void creating_a_dog() {
         Dog fido = new Dog("Fido","Bone", 5);
-        Assert.assertEquals(fido.getName(), "Fido");
         Assert.assertEquals(fido.getFavoriteToy(), "Bone");
         Assert.assertEquals(fido.getAge(), 5);
     }
@@ -41,12 +40,12 @@ public class WhenCreatingObjects {
     public void whenAnimalsPlay() {
 // TODO: Uncomment me
 //
-//        Pet fido = new Dog("Fido","Bone", 5);
-//        Pet spot = new Cat("Spot","String", 5);
-//        Pet hazel = new Hamster("Hazel", 1, "Wheel");
-//
-//        assertThat(fido.play(), equalTo("plays with bone"));
-//        assertThat(spot.play(), equalTo("plays with string"));
-//        assertThat(hazel.play(), equalTo("runs in wheel"));
+    /*  Pet fido = new Dog("Fido","Bone", 5);
+      Pet spot = new Cat("Spot","String", 5);
+      Pet hazel = new Hamster("Hazel", 1, "Wheel");
+
+      assertThat(fido.play(), equalTo("plays with bone"));
+      assertThat(spot.play(), equalTo("plays with string"));
+      assertThat(hazel.play(), equalTo("runs in wheel"));*/
     }
 }
